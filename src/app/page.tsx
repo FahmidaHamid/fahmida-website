@@ -194,6 +194,7 @@ export default function Home() {
       about where to begin.
     </p>
 
+
     <div className="hero-actions">
       <a className="button" href="#research">
         Explore research opportunities
@@ -281,6 +282,38 @@ export default function Home() {
 )}
 
     {section.id === "about" && (
+      
+      <>
+      <div className="education">
+  <h3>Education</h3>
+
+  <ul>
+    <li>
+      <strong>Ph.D. in Computer Science and Engineering</strong>
+      <span>{" "} University of North Texas · 2016</span>
+      <p>
+        Ph.D. advisor:{" "}
+        <a
+          href="https://engineering.unt.edu/people/paul-tarau.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Paul Tarau
+        </a>
+      </p>
+    </li>
+
+    <li>
+      <strong>M.Sc. in Computer Science and Engineering</strong>
+      <span>{" "}  University of Dhaka · 2009</span>
+    </li>
+
+    <li>
+      <strong>B.Sc. in Computer Science and Engineering</strong>
+      <span>{" "}  University of Dhaka · 2007</span>
+    </li>
+  </ul>
+</div>
       <div className="section-links">
         <a
           href="/files/Fahmida_Hamid_Updated_CV.pdf"
@@ -298,6 +331,8 @@ export default function Home() {
           GitHub
         </a>
       </div>
+      </>
+      
     )}
 
     {section.id === "contact" && (
