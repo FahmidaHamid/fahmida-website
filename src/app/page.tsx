@@ -151,8 +151,8 @@ const studentPosters = [
 export default function Home() {
   return (
     <>
-      <header className="site-header">
-        <a className="site-name" href="#home">
+    <header id="home" className="site-header">
+      <a className="site-name" href="#home">
           Fahmida Hamid
         </a>
 
@@ -163,9 +163,8 @@ export default function Home() {
             </a>
           ))}
         </nav>
-      </header>
-
-      <main id="home" className="container">
+      </header> 
+    <main className="container">
    <section className="hero">
   <div className="hero-text">
     <p className="eyebrow">
@@ -371,6 +370,14 @@ export default function Home() {
       <footer className="container site-footer">
         Fahmida Hamid · California Lutheran University
       </footer>
+
+      <a
+  href="#home"
+  className="back-to-top"
+  aria-label="Back to top of page"
+>
+  ↑ Back to top
+</a>
     </>
   );
 }
