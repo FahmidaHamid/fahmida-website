@@ -5,14 +5,12 @@ const sections = [
     id: "about",
     title: "About",
     paragraphs: [
-      "I am an Associate Professor of Computer Science at California Lutheran University. Before joining CLU, I taught at New College of Florida, Grinnell College, Bucknell University, and the University of North Texas. I earned my Ph.D. in Computer Science and Engineering from the University of North Texas and my bachelor’s and master’s degrees from the University of Dhaka.",
+  "I am an Associate Professor of Computer Science at California Lutheran University, with previous teaching appointments at New College of Florida, Grinnell College, Bucknell University, and the University of North Texas.",
 
-      "My teaching spans programming, data structures and algorithms, software engineering, artificial intelligence, and natural language processing. I enjoy helping students connect foundational concepts with programs, experiments, and tools they can build and understand.",
+  "My teaching spans programming, algorithms, software engineering, and AI. My research explores computing education, natural language processing, recommender systems, and health-related misinformation.",
 
-      "My research includes computing education, Bengali natural language processing, text summarization, recommender systems, and health-related information and misinformation. Through undergraduate research mentoring, I have supported projects ranging from neural rendering and music recommendations to social media analysis and educational applications.",
-
-      "In mentoring students, I encourage curiosity, manageable questions, careful evaluation, and clear communication. I am interested in developing new projects with CLU students, including work on AI transparency, dataset documentation, and the evaluation of AI-generated information.",
-    ],
+  "I enjoy mentoring students as they turn ideas into working tools and thoughtful experiments. I welcome new projects with CLU students, including AI transparency, dataset documentation, and evaluating AI-generated information.",
+],
   },
   {
     id: "research",
